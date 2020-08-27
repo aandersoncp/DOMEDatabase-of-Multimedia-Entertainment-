@@ -1,5 +1,4 @@
 package dome.catalogo.midia;
-
 public abstract class MidiaAbstrata {
     protected String codigo;
     protected String titulo;
@@ -52,4 +51,5 @@ public abstract class MidiaAbstrata {
    
     public abstract void status();
     
+    public abstract void inserirInformaçaoMidia();
 }
